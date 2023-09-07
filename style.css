@@ -1,0 +1,123 @@
+/*img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 4;
+}
+*/
+
+h1 {
+    position: relative;
+    z-index: 5;
+}
+
+div {
+     position: relative;
+    height: 150px;
+    width: 200px;
+    ;
+
+}
+
+.box1 {
+
+    position: absolute;
+    background-color: red;
+    left: 0;
+    top: 0;
+    z-index: 3;
+
+}
+
+.box2 {
+    position: absolute;
+    background-color: rgb(124, 99, 99);
+    left: 50px;
+    top: 50px;
+    z-index: 2;
+}
+
+.box3 {
+
+    position: absolute;
+    background-color: rgb(212, 149, 149);
+    left: 0;
+    top: 250px;
+    z-index: 2;
+}
+
+.overflow {
+    position: relative;
+    right: 0;
+    height: 600px;
+    width: 500px;
+    border: 10px solid greenyellow;
+    overflow: auto;
+
+
+}
+
+.box5 {
+    float: right;
+    background-color: rgb(212, 149, 149);
+    width: 20%;
+    top: 150px;
+
+
+}
+
+.box6 {
+    float: right;
+    background-color: yellow;
+    width: 20%;
+    top: 150px;
+
+
+}
+
+.box7 {
+    float: right;
+    background-color: rgb(21, 21, 16);
+    width: 20%;
+    top: 150px;
+
+
+}
+.text{
+    width:100%;
+}
+img{
+    float:right;
+    height:150px;
+    width:150px;
+    border: 2px solid blueviolet;
+}
+
+.left{
+    height:200px;
+    
+    border:2px black;
+    
+    overflow: auto;
+    
+    }
+    .left image{
+    float: left;
+        
+        
+        
+        }
+        
+        .div1{
+            float:left;
+            padding:15px;
+            border:2px cyan solid;
+        }
+        
+        .div2{
+           
+            padding:10px;
+            border:3px rgba(215, 136, 19, 0.559) solid;
+        
+        clear:left;
+    }
